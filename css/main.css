@@ -1,0 +1,273 @@
+html {
+    box-sizing: border-box;
+    /* brand colors */
+    --action-color:#752232;
+    --main-color:#0439A3;
+    --main-two:#043D8C;
+    --brand-color:#05328F;
+    --extras:#8E5C1D;
+    --text-color:hsl(0,10%,10%);
+    --gray:hsl(0, 0%, 40%);
+    --light-gray:hsl(0, 0%, 80%);
+    --white:#fafafaf1;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin:0;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.section-title {
+    font-size: 1.8rem;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+}
+
+.section {
+
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+
+.media {
+    overflow: hidden;
+    border: 1px solid var(--light-gray);
+    box-shadow: 1px 1px 1px var(--light-gray)
+                2px 2px 1px var(--light-gray)
+                2px 1px 1px var(--light-gray);
+    margin:1em;
+    opacity:0;
+    transform: translateY(2em) scale(0.9);
+    transition: transform 2s 0s ease-in-out,
+                opacity 0.5s ease-in;
+    will-change: transform opacity;
+}
+
+.media-image {
+    max-height: 200px;
+    width: fit-content;
+}
+
+.media-title {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0.5em 0;
+    color:var(--white)
+}
+
+.media-description {
+    color:var(--text-color);
+    padding: 0.2em;
+}
+
+.media:hover{
+    box-shadow: none;
+}
+
+.media:focus {
+    box-shadow: 0.2em 0.2em var(--gray);
+}
+
+.media-animate {
+    transform: translateY(0px) scale(1);
+    opacity: 1;
+}
+
+.footer {
+    background-color: var(--light-gray);
+    padding: 1em 0;
+    color: var(--brand-color);
+}
+
+/* Navigation bar */
+.nav {
+    background-color:transparent;
+    display: block;
+    padding: 1em;
+}   
+
+.navbar-brand {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color:var(--white);
+    font-weight: bolder;
+    
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: none;
+}
+
+.nav-list.isOpen {
+    display: block;
+    background-color: var(--white);
+    margin:0 -2em;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+    display: block;
+    padding:0.5em;
+    letter-spacing: 0.2em;
+    font-size: 1.2rem;
+    color:var(--white);
+}
+
+.navbar-fixed {
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    z-index: 2;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 0.5em;
+    right:0.5em;
+    color:var(--white);
+    font-size:1.8rem;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-toggle:focus {
+    outline: 1px solid var(--brand-color);
+}
+
+
+.navbar-expand {
+    display: block;
+}
+
+.navbar-white {
+    background-color: #fff;
+    opacity: 1;
+    box-shadow: 2px 2px 0.1em 0em var(--light-gray);  
+}
+
+.navbar-white a,.navbar-white .navbar-toggle {
+    color: var(--brand-color) !important;
+}
+
+
+
+/* Auxillary classes */
+.text-center {
+    text-align: center;
+}
+
+.bg-primary {
+    color:var(--main-two);
+}  
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.img-circle {
+    border-radius:5em;
+    max-height: 300px;
+}
+
+/* Custom styles */
+.landing {
+    background-image: url('../images/hill3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 4rem;
+    height: 90vh;
+    color: var(--white);
+}
+
+.landing .container h2{
+    margin-top: 10rem;
+    font-size: 2.6rem;
+    font-weight: bolder;
+}
+
+.button-group {
+    display: block;
+    padding: 0 1em;
+    
+}
+
+.btn {
+    height: 30px;
+    padding: 1em 1.5em;
+    border:1px solid var(--light-gray);
+    /* background-color: var(--main-two); */
+    /* color:var(--white); */
+    border-radius: 5px;
+}
+
+.btn + .btn {
+    margin-left: 1em;
+}
+
+#map {
+    width: 100%;
+    height:20vh;
+}
+
+.contact {
+    /* display: flex; */
+}
+
+.address {
+    padding:0em 1em;
+}
+
+
+/* Page breaks */
+@media (min-width:50em){
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav-list.isOpen {
+        display: inline-flex;
+        background-color: transparent;
+        color: var(--brand-color);
+        margin-right: 2em;
+        font-weight: bolder;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

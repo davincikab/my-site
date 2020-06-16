@@ -1,0 +1,111 @@
+{
+    "mapbox":[
+        {
+            "name":"theme",
+            "url":"",
+            "video":"",
+            "images":[
+                "image1.png",
+                "image2.png"
+            ],
+            "description":"Custom web mapping application with data filters and modern look and feel"
+        },
+        {
+            "name":"working area",
+            "url":"",
+            "video":"",
+            "images":[
+                "image1.png",
+                "image2.png"
+            ],
+            "description":"A web map application indicating the location of an organization globally"
+        },
+        {
+            "name":"Animation",
+            "url":"",
+            "video":"",
+            "images":[
+                "image1.png",
+                "image2.png"
+            ],
+            "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
+        }
+
+
+    ],
+    "leaflet":[
+        {
+            "name":"Hospital Locator",
+            "url":"",
+            "video":"",
+            "images":[
+                "image1.png",
+                "image2.png"
+            ],
+            "description":"Spatail Analyis on the web using turfjs (buffer, clustering), custom routing, "
+        },
+        {
+            "name":"Choropleth Map",
+            "url":"",
+            "video":"",
+            "images":[
+                "image1.png",
+                "image2.png"
+            ],
+            "description":"A choropleth map on"
+        }
+        
+    ],
+    "googlemaps":[
+        {
+            "name":"Animation",
+            "url":"",
+            "video":"",
+            "images":[
+                "image1.png",
+                "image2.png"
+            ],
+            "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
+        }
+
+    ],
+    "openlayers":[
+        {
+            "name":"Animation",
+            "url":"",
+            "video":"",
+            "images":[
+                "image1.png",
+                "image2.png"
+            ],
+            "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
+        }
+
+    ],
+    "heremaps":[
+        {
+            "name":"Animation",
+            "url":"",
+            "video":"",
+            "images":[
+                "image1.png",
+                "image2.png"
+            ],
+            "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
+        }
+
+    ],
+    "d3js":[
+        {
+            "name":"Animation",
+            "url":"",
+            "video":"",
+            "images":[
+                "image1.png",
+                "image2.png"
+            ],
+            "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
+        }
+
+    ]
+}
