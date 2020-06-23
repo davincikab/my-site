@@ -68,7 +68,7 @@ body {
 
 .media-image {
     max-height: 200px;
-    width: fit-content;
+    /* width: fit-content; */
 }
 
 .media-title {
