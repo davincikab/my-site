@@ -6,10 +6,10 @@
             "video":"",
             "image_url":"theme",
             "images":[
-                "mobile.png",
-                "multipleContent.png",
-                "theme1.png",
-                "theme2.png"
+                "mobile.PNG",
+                "multipleContent.PNG",
+                "theme1.PNG",
+                "theme2.PNG"
             ],
             "description":"Custom web mapping application with data filters and modern look and feel"
         },
@@ -19,8 +19,8 @@
             "video":"",
             "image_url":"working_area",
             "images":[
-                "fullextent.png",
-                "popup.png"
+                "fullextent.PNG",
+                "popup.PNG"
             ],
             "description":"A web map application indicating the location of an organization globally"
         },
@@ -30,8 +30,8 @@
             "video":"",
             "image_url":"animation",
             "images":[
-                "flight.png",
-                "flight2.png"
+                "flight.PNG",
+                "flight2.PNG"
             ],
             "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
         },
@@ -41,10 +41,10 @@
             "video":"",
             "image_url":"threed",
             "images":[
-                "dusk.png",
-                "model.png",
-                "model_noon.png",
-                "model_morning.png"
+                "dusk.PNG",
+                "model.PNG",
+                "model_noon.PNG",
+                "model_morning.PNG"
             ],
             "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
         }
@@ -58,8 +58,8 @@
             "video":"",
             "image_url":"bigdata",
             "images":[
-                "image.png",
-                "uploadData.png"
+                "image.PNG",
+                "uploadData.PNG"
             ],
             "description":"Spatail Analyis on the web using turfjs (buffer, clustering), custom routing, "
         },
@@ -69,8 +69,8 @@
             "video":"",
             "image_url":"choropleth",
             "images":[
-                "asthma.png",
-                "income.png"
+                "asthma.PNG",
+                "income.PNG"
             ],
             "description":"A choropleth map on"
         },
@@ -80,9 +80,9 @@
             "video":"",
             "image_url":"choropleth2",
             "images":[
-                "image1.png",
-                "image2.png",
-                "image3.png"
+                "image1.PNG",
+                "image2.PNG",
+                "image3.PNG"
             ],
             "description":"A choropleth map on"
         },
@@ -92,9 +92,9 @@
             "video":"",
             "image_url":"custom",
             "images":[
-                "image.png",
-                "image2.png",
-                "search.png"
+                "image.PNG",
+                "image2.PNG",
+                "search.PNG"
             ],
             "description":"A choropleth map on"
         },
@@ -104,9 +104,9 @@
             "video":"",
             "image_url":"listing",
             "images":[
-                "listing1.png",
-                "listing2.png",
-                "listing3.png"
+                "listing1.PNG",
+                "listing2.PNG",
+                "listing3.PNG"
             ],
             "description":"Listing Website"
         }
@@ -119,8 +119,8 @@
             "video":"",
             "image_url":"animation",
             "images":[
-                "image1.png",
-                "image2.png"
+                "image1.PNG",
+                "image2.PNG"
             ],
             "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
         }
@@ -133,8 +133,8 @@
             "video":"",
             "image_url":"animation",
             "images":[
-                "image1.png",
-                "image2.png"
+                "image1.PNG",
+                "image2.PNG"
             ],
             "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
         }
@@ -147,8 +147,8 @@
             "video":"",
             "image_url":"animation",
             "images":[
-                "image1.png",
-                "image2.png"
+                "image1.PNG",
+                "image2.PNG"
             ],
             "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
         }
@@ -161,8 +161,8 @@
             "video":"",
             "image_url":"animation",
             "images":[
-                "image1.png",
-                "image2.png"
+                "image1.PNG",
+                "image2.PNG"
             ],
             "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
         }
