@@ -85,7 +85,7 @@ body {
 }
 
 .media:hover{
-    box-shadow: none;
+    box-shadow: 4px 4px 0.8em hsl(0, 0%, 60%);
 }
 
 .media:focus {

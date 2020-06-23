@@ -5,8 +5,10 @@
             "url":"",
             "video":"",
             "images":[
-                "image1.png",
-                "image2.png"
+                "mobile.png",
+                "multipleContent.png",
+                "theme1.png",
+                "theme2.png"
             ],
             "description":"Custom web mapping application with data filters and modern look and feel"
         },
@@ -15,8 +17,8 @@
             "url":"",
             "video":"",
             "images":[
-                "image1.png",
-                "image2.png"
+                "fullextent.png",
+                "popup.png"
             ],
             "description":"A web map application indicating the location of an organization globally"
         },
@@ -25,8 +27,20 @@
             "url":"",
             "video":"",
             "images":[
-                "image1.png",
-                "image2.png"
+                "flight.png",
+                "flight2.png"
+            ],
+            "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
+        },
+        {
+            "name":"threed",
+            "url":"",
+            "video":"",
+            "images":[
+                "dusk.png",
+                "model.png",
+                "model_noon.png",
+                "model_morning.png"
             ],
             "description":"Animating product shipping. Exploring turfjs and JavaScript requestAnimationFrame"
         }
@@ -35,24 +49,57 @@
     ],
     "leaflet":[
         {
-            "name":"Hospital Locator",
+            "name":"Big Data",
             "url":"",
             "video":"",
             "images":[
-                "image1.png",
-                "image2.png"
+                "image.png",
+                "uploadData.png"
             ],
             "description":"Spatail Analyis on the web using turfjs (buffer, clustering), custom routing, "
         },
         {
-            "name":"Choropleth Map",
+            "name":"Choropleth",
+            "url":"",
+            "video":"",
+            "images":[
+                "asthma.png",
+                "income.png"
+            ],
+            "description":"A choropleth map on"
+        },
+        {
+            "name":"Choropleth 2",
             "url":"",
             "video":"",
             "images":[
                 "image1.png",
-                "image2.png"
+                "image2.png",
+                "image3.png"
             ],
             "description":"A choropleth map on"
+        },
+        {
+            "name":"Custom Markers",
+            "url":"",
+            "video":"",
+            "images":[
+                "image.png",
+                "image2.png",
+                "search.png"
+            ],
+            "description":"A choropleth map on"
+        },
+        {
+            "name":"Listing",
+            "url":"",
+            "video":"",
+            "images":[
+                "listing1.png",
+                "listing2.png",
+                "listing3.png"
+            ],
+            "description":"Listing Website"
         }
         
     ],

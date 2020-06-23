@@ -31,54 +31,54 @@ var scroll = window.requestAnimationFrame ||
 
 var scrollElements = document.querySelectorAll('.media');
 
-// function loop(){
-//     scrollElements.forEach(el => {
-//         if(isElementInViewPort(el)){
-//             el.classList.add('media-animate')
-//         }else {
-//             el.classList.remove('media-animate');
-//         }
-//     });
-
-//     scroll(loop);
-// }
-
-// loop();
-
-// // determine if the element is within viewport
-// function isElementInViewPort(el){
-//     // check if jqeury is defined
-//     if( typeof jQuery === 'function' && el instanceof jQuery){
-//         el = el[0];
-//     }
-
-//     var rect = el.getBoundingClientRect();
-//     return (
-//         (
-//             rect.top <= 0 &&
-//             rect.bottom >= 0) ||
-//         (
-//             rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
-//             rect.top <= (window.innerHeight || document.documentElement.clientHeight)
-//         ) ||
-//         (
-//             rect.top >= 0 &&
-//             rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-//         )
-//     )
-// }
-
-// Using Intersect Observer
-const callback = function(entries){
-    entries.forEach(entry => {
-        entry.target.classList.add("media-animate");
+function loop(){
+    scrollElements.forEach(el => {
+        if(isElementInViewPort(el)){
+            el.classList.add('media-animate')
+        }else {
+            el.classList.remove('media-animate');
+        }
     });
+
+    scroll(loop);
 }
 
-const observer = new IntersectionObserver(callback);
-scrollElements.forEach(element => {
-    observer.observe(element);
-});
+loop();
+
+// determine if the element is within viewport
+function isElementInViewPort(el){
+    // check if jqeury is defined
+    if( typeof jQuery === 'function' && el instanceof jQuery){
+        el = el[0];
+    }
+
+    var rect = el.getBoundingClientRect();
+    return (
+        (
+            rect.top <= 0 &&
+            rect.bottom >= 0) ||
+        (
+            rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+        ) ||
+        (
+            rect.top >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        )
+    )
+}
+
+// Using Intersect Observer
+// const callback = function(entries){
+//     entries.forEach(entry => {
+//         entry.target.classList.add("media-animate");
+//     });
+// }
+
+// const observer = new IntersectionObserver(callback);
+// scrollElements.forEach(element => {
+//     observer.observe(element);
+// });
 
 // load the data
 // fetch(dataUrl)
